@@ -1,0 +1,28 @@
+.siteHeader {
+	margin: 0px auto;
+	border-spacing: 25px;
+    border-collapse: separate;
+}
+
+
+.reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-size: contain;
+	color:transparent !important;
+	background-size: 100% 100%
+	max-width: 180px;
+    max-height: 150px;
+	min-width: 180px;
+	min-height: 150px;
+}
+
+.AddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url('../JojoWebsite/images/Books/Figure Drawing/boxc_buy_180x150_figure_12.png');
+}
+
+.AddSecondItem > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url('../JojoWebsite/images/Books/Reddit/boxc_buy_180x150_reddit_12.png');
+}
+
+.ref-button:hover {
+	color:transparent;
+}
