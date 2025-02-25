@@ -21,6 +21,10 @@
 }
 
 tr.topRow > th {
+	padding-bottom: 20px;
+}
+
+tr.bottomItem > td {
 	padding-bottom: 1em;
 }
 
@@ -39,8 +43,20 @@ tr.topRow > th {
 	background-image: url(./images/Books/Figure_Drawing/boxc_buy_180x150_figure_12.png);
 }
 
-.AddSecondItem > .reflow-add-to-cart.ref-product-controls > .ref-button {
-	background-image: url('../JojoWebsite/images/Books/Reddit/boxc_buy_180x150_reddit_12.png');
+.Japan1AddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Books/Japan_I/boxc_buy_180x150_japan_12.png);
+}
+
+.RedditAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Books/Reddit/boxc_buy_180x150_reddit_12.png);
+}
+
+.ThiefAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Books/Thief/boxc_buy_180x150_thief_12.png);
+}
+
+.WoWAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Books/WoW/boxc_buy_180x150_wow_12_ver4.png);
 }
 
 .ref-button:hover {
