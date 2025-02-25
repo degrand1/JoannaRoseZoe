@@ -4,18 +4,31 @@
     border-collapse: separate;
 }
 
+.itemTable {
+	margin: 0px auto;
+	border-spacing: 18px;
+    border-collapse: separate;
+	max-width: 900px;
+	display: block;
+	table-layout: fixed
+}
+
+tr.topRow > th {
+	padding-bottom: 1em;
+}
 
 .reflow-add-to-cart.ref-product-controls > .ref-button {
 	background-size: contain;
 	color:transparent !important;
-	background-size: 100% 100%
 	max-width: 180px;
     max-height: 150px;
 	min-width: 180px;
 	min-height: 150px;
+    background-size: 100% 100%;
+	border-radius: 0px;
 }
 
-.AddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+.FigureDrawingAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
 	background-image: url('../JojoWebsite/images/Books/Figure Drawing/boxc_buy_180x150_figure_12.png');
 }
 
