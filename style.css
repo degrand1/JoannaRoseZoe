@@ -2,11 +2,18 @@
 	margin: 0px auto;
 	border-spacing: 25px;
     border-collapse: separate;
+	max-width: 1077px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   /* ect styles */
 }
 
 .itemTable {
 	margin: 0px auto;
-	border-spacing: 18px;
+	border-spacing: 20px;
     border-collapse: separate;
 	max-width: 900px;
 	display: block;
