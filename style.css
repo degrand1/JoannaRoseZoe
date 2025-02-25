@@ -36,7 +36,7 @@ tr.topRow > th {
 }
 
 .FigureDrawingAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
-	background-image: url('../JojoWebsite/images/Books/Figure Drawing/boxc_buy_180x150_figure_12.png');
+	background-image: url(../JojoWebsite/images/Books/Figure_Drawing/boxc_buy_180x150_figure_12.png);
 }
 
 .AddSecondItem > .reflow-add-to-cart.ref-product-controls > .ref-button {
