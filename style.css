@@ -20,6 +20,22 @@
 	table-layout: fixed
 }
 
+/* Image over text header homepage */
+.top-left-table-header {
+  position:relative;
+  top:-240px;
+  left:16px;
+  font-weight:bold
+}
+
+/* Image over text homepage */
+.top-left-table-text {
+	position:relative;
+	top:-230px;
+	left:32px;
+	width:900px;
+}
+
 tr.topRow > th {
 	padding-bottom: 20px;
 }
