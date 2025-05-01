@@ -11,15 +11,6 @@
    /* ect styles */
 }
 
-.itemTable {
-	margin: 0px auto;
-	border-spacing: 20px;
-    border-collapse: separate;
-	max-width: 900px;
-	display: block;
-	table-layout: fixed
-}
-
 /* Image over text header homepage */
 .top-left-table-header {
   position:relative;
@@ -36,11 +27,51 @@
 	width:900px;
 }
 
+.itemTable {
+	margin: 0px auto;
+	border-spacing: 20px 20px;
+	border-collapse: separate;
+	max-width: 900px;
+	display: block;
+	table-layout: fixed;
+	padding-top: 0px;
+	padding-left: 10px;
+}
+
 tr.topRow > th {
 	padding-bottom: 20px;
 }
 
+tr.middleDesc > th {
+	padding-bottom: 0px;
+}
+
 tr.bottomItem > td {
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+.printsTable {
+	margin: 0px auto;
+	border-spacing: 30px 0;
+	border-collapse: separate;
+	max-width: 900px;
+	display: block;
+	table-layout: fixed;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+tr.printTopRow > th {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+tr.printRow > td {
+	padding-left: 0px;
+}
+
+tr.printBuyButton > td {
 	padding-bottom: 1em;
 }
 
@@ -53,6 +84,30 @@ tr.bottomItem > td {
 	min-height: 150px;
     background-size: 100% 100%;
 	border-radius: 0px;
+}
+
+.PrintsCityscapesRestaurantAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Prints/Cityscapes/cityscape_restaurant_buy.png);
+	max-width: 280px;
+	max-height: 40px;
+	min-width: 280px;
+	min-height: 40px;
+}
+
+.PrintsLandscapesCherryBlossomAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Prints/Landscapes/landscape_cherry_blossoms_buy.png);
+	max-width: 280px;
+	max-height: 40px;
+	min-width: 280px;
+	min-height: 40px;
+}
+
+.PrintsOtherAmericanBatikAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
+	background-image: url(./images/Prints/Other/other_american_batik_buy.png);
+	max-width: 280px;
+	max-height: 40px;
+	min-width: 280px;
+	min-height: 40px;
 }
 
 .FigureDrawingAddToCartButton > .reflow-add-to-cart.ref-product-controls > .ref-button {
